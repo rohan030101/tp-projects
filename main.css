@@ -4,8 +4,13 @@
 .personal-details {
   text-align: center;
 }
+.personal-details p{
+  margin: 0;
+  font-weight: bold;
+}
 .title {
   color: purple;
+  margin-bottom: 10px;
 }
 .company-details p{
   margin-top: 0;
@@ -23,4 +28,7 @@
 }
 .margin-btn{
   margin-top: 0;
+}
+.psn-details ul li {
+  font-weight: bold;
 }
