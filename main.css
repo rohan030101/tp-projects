@@ -1,10 +1,24 @@
-.resume{
-    margin: 10px;
+.maincontainer{
+    margin: 40px;
 }
-.name{
+.personaldetails{
     text-align: center;
-    color: blueviolet;
-    font-size: 38px;    
+}
+.personaldetails h1{
+    color: purple;
+}
+.head{
+    color: purple;
+}
+.head p {
+    font-weight: bold;
+}
+.educationdetails{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.educationdetails p{
+    margin: 0;
 }
 
-s
