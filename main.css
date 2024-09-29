@@ -1,24 +1,26 @@
-.maincontainer{
-    margin: 40px;
+.main-container {
+ padding: 40px;
 }
-.personaldetails{
-    text-align: center;
+.personal-details {
+  text-align: center;
 }
-.personaldetails h1{
-    color: purple;
+.title {
+  color: purple;
 }
-.head{
-    color: purple;
+.company-details p{
+  margin-top: 0;
 }
-.head p {
-    font-weight: bold;
+.company-details h4{
+  margin-bottom: 0;
 }
-.educationdetails{
-    display: flex;
-    justify-content: space-between;
-    font-weight: bold;
+.education-details {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
 }
-.educationdetails p{
-    margin: 0;
+.education-details p{
+  margin: 0;
 }
-
+.margin-btn{
+  margin-top: 0;
+}
