@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Resume with CSS</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -16,7 +16,7 @@
   <body>
     <!-- Head Section -->
 
-    <div class="head-section">
+    <section id="head-section">
       <div class="name-and-details">
         <div class="name-and-desgination">
           <h1>STEPHEN JOHN</h1>
@@ -28,32 +28,37 @@
           nihil incidunt necessitatibus possimus fugiat ex aspernatur rem eos
           quaerat vel dolorem quae temporibus, nulla voluptate dolor nesciunt?
           Vel, est reiciendis. vel debitis quibusdam repellat repudiandae est.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
         </div>
-
+<!-- 
         <div class="socials">
           <ul class="links">
             <li><i class="fa-solid fa-phone"></i> Telephone</li>
             <li><i class="fa-solid fa-phone"></i> Email</li>
-            <li><i class="fa-solid fa-house"></i> Address,City,ST ZIP CODE</li>
+            <li><i class="fa-solid fa-house"></i> Address, City, ST ZIP CODE</li>
           </ul>
+        </div> -->
+
+        <div class="socials">
+            <span><i class="fa-solid fa-phone"></i> Telephone</span>
+            <span><i class="fa-solid fa-phone"></i> Email</span>
+            <span><i class="fa-solid fa-phone"></i> Address, City, ST ZIP CODE</span>
         </div>
       </div>
 
       <img class="photo" src="./photo.jpeg" alt="" />
-    </div>
+    </section>
 
     <!-- Head Section Ends Here -->
 
     <!-- Middle Section Start Here -->
-    <div class="mid-section">
+    <section id="mid-section">
       <div>
         <div class="title-with-border">
           <h4 class="head-title">WORK EXPERIENCE</h4>
         </div>
         <div class="title-info">
           <div class="left-part">
-            <h5 class="title">JOB TITLE -1 </h5>
+            <h5 class="title">JOB TITLE -1</h5>
             <h5 class="date">Date from - to -</h5>
           </div>
           <div class="right-part-job">
@@ -61,33 +66,33 @@
             <p class="description">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
               repellendus provident ab, amet similique neque, obcaecati ratione
-              voluptatibus quibusdam slore Lorem ipsum, dolor sit amet consectetur
-              voluptatibus quibusdam slore Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Fugiat, provident, nemo quaerat mollitia 
+              voluptatibus quibusdam slore Lorem ipsum, dolor sit amet
+              consectetur voluptatibus quibusdam slore Lorem ipsum, dolor sit
+              amet consectetur adipisicing elit. Fugiat, provident, nemo quaerat
+              mollitia
             </p>
           </div>
         </div>
 
         <div class="title-info">
-            <div class="left-part">
-                <h5 class="title">JOB TITLE -2 </h5>
-                <h5 class="date">Date from - to -</h5>
-            </div>
-            <div class="right-part-job">
-                
-                <h5 class="title">COMPANY NAME</h5>
-                <p class="description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
-                    repellendus provident ab, amet similique neque, obcaecati ratione
-                    voluptatibus quibusdam slore Lorem ipsum, dolor sit amet consectetur
-                    voluptatibus quibusdam slore Lorem ipsum, dolor sit amet consectetur
-                    adipisicing elit. Fugiat, provident, nemo quaerat mollitia 
-                  </p>
-            </div>
-            
-        </div> 
+          <div class="left-part">
+            <h5 class="title">JOB TITLE -2</h5>
+            <h5 class="date">Date from - to -</h5>
+          </div>
+          <div class="right-part-job">
+            <h5 class="title">COMPANY NAME</h5>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
+              repellendus provident ab, amet similique neque, obcaecati ratione
+              voluptatibus quibusdam slore Lorem ipsum, dolor sit amet
+              consectetur voluptatibus quibusdam slore Lorem ipsum, dolor sit
+              amet consectetur adipisicing elit. Fugiat, provident, nemo quaerat
+              mollitia
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="title-with-border"><h4 class="head-title">Education</h4></div>
+      <div class="title-with-border"><h4 class="head-title">EDUCATION</h4></div>
 
       <div class="title-info">
         <div class="left-part">
@@ -132,13 +137,13 @@
           </p>
         </div>
       </div>
-    </div>
+    </section>
     <!-- Middle Section Ends Here -->
 
     <!-- Bottom Section Ends Here -->
-    <div class="mid-section">
+    <section id="bottom-section">
       <div class="title-with-border">
-        <h4 class="head-title">Communication</h4>
+        <h4 class="head-title">COMMUNICATION</h4>
       </div>
       <p class="bottom-desc">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nisi
@@ -146,7 +151,7 @@
         voluptatum in eaque, vitae laboriosam aperiam unde quibusdam enim quam
         perferendis.
       </p>
-    </div>
+    </section>
     <!-- Bottom Section Ends Here -->
   </body>
 </html>
