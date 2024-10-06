@@ -93,13 +93,14 @@
 }
 
 .jobTitle{
-  font-weight: bolder;
+  font-weight: 900;
   text-align: right;
 }
 
 .jobDate{
   font-weight: normal;
   text-align: right;
+  margin-right: 10px;
 }
 
 .educationTitle{
