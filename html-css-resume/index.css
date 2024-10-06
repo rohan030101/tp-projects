@@ -6,7 +6,7 @@
 
 /* HEAD SECTION START HERE */
 .head-section {
-  padding: 15px 50px;
+  padding: 10px 50px;
   height: 45vh;
   background-color: #1d4e79;
   color: #FFF;
@@ -25,6 +25,7 @@
   padding-bottom: 0;
 }
 .name-and-desgination h3 {
+  font-weight: lighter;
   margin-bottom: 20px;
 }
 .summary {
@@ -40,8 +41,8 @@
 }
 
 .photo {
-  margin-left: 13%;
-  border: 2px solid #1d4e79;
+  border: 2px solid white;
+  margin-left: 30px ;
 }
 
 /* HEAD SECTION START HERE */
@@ -69,8 +70,12 @@
 
 .title{
     font-weight: 900;
+  
 }
 
+.margin-left{
+  margin: 0 0 0 20px;
+}
 .title-info {
   display: flex;
   margin-bottom: 10px;
@@ -78,18 +83,18 @@
 }
 
 .left-part {
-  flex: 1;
+  width: 200px; 
 }
 
-.right-part {
-  flex: 9;
+.right-part-job{
+  margin-left: 30px;
 }
+
 /* MIDDLE SECTION ENDS HERE */
 
 /* BOTTOM SECTION START HERE */
 
 .bottom-desc{
-    margin: 20px;
-
+    margin: 0 40px 0 40px;
 }
 /* BOTTOM SECION ENDS HERE */
