@@ -47,11 +47,11 @@ const resume = {
     }],
     "socials":[{
         "socailName":"Linkedln",
-        'socailUrl':"",
+        'socailUrl':"https://in.linkedin.com/in/rohan-janrao-3161b9191",
     },
     {    
         "socailName":"Github",
-        'socailUrl':"",
+        'socailUrl':"https://github.com/rohan030101",
 }],
 };
 
@@ -60,10 +60,10 @@ const resume = {
 console.log("Hi my self "+resume.firsName+" "+ resume.lastName+".");
 console.log("I'm currently working as an "+resume.desgination+"at " + resume.pastJobs[1].companyName);
 console.log('I.m '+resume.Age+" years old and have "+resume.exprienceInYears+" of expreience in this field");
-console.log("I have completed my Diploma from "+resume.educationDetails[0].collegeName+" with  the CGPA of "+resume.educationDetails[0].CGPA+ " in " + resume.educationDetails[0].passoutDate);
-console.log("I have completed my 12th from "+resume.educationDetails[1].collegeName+" with  the CGPA of "+resume.educationDetails[1].CGPA+ " in " + resume.educationDetails[1].passoutDate);
-console.log("I have completed my 10th from "+resume.educationDetails[2].collegeName+" with  the CGPA of "+resume.educationDetails[2].CGPA+ " in " + resume.educationDetails[2].passoutDate);
-console.log('You can find my socials link as:'+resume.socials[0].socailName,resume.socials[0].socailUrl +" , " +resume.socials[1].socailName,resume.socials[1].socailUrl)
+console.log("I have completed my "+resume.educationDetails[0].level+ "from "+resume.educationDetails[0].collegeName+" with  the CGPA of "+resume.educationDetails[0].CGPA+ " in " + resume.educationDetails[0].passoutDate);
+console.log("I have completed my " +resume.educationDetails[1].level+ " from "+resume.educationDetails[1].collegeName+" with  the CGPA of "+resume.educationDetails[1].CGPA+ " in " + resume.educationDetails[1].passoutDate);
+console.log("I have completed my "+resume.educationDetails[2].level+ " from "+resume.educationDetails[2].collegeName+" with  the CGPA of "+resume.educationDetails[2].CGPA+ " in " + resume.educationDetails[2].passoutDate);
+console.log('You can find my socials link as:\n'+resume.socials[0].socailName,resume.socials[0].socailUrl +" ,\n" +resume.socials[1].socailName,resume.socials[1].socailUrl)
 
 
 
