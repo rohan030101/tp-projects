@@ -14,14 +14,14 @@ let details={
 let educationDetails = [
   {
     level: "Diploma Completed",
-    collegeName: "Vivekanand Educaton Society Polytecnic Chembur",
+    collegeName: "Vivekanand Educaton Society Polytechsnic Chembur",
     courseName: "Computer Technology",
     passoutYear: 2020,
     percentage: 76
   },
   {
     level: "HSC Completed",
-    collegeName: "Shardashram Vidyamandir Technical Collge Dadat West",
+    collegeName: "Shardashram Vidyamandir Technical Collge Dadar West",
     courseName: "12th",
     passoutYear: 2018,
     percentage: 74
