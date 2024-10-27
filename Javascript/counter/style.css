@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+}
+.container {
+  display: flex;
+  max-width: 30vw;
+  flex-direction: column;
+  margin: 10px;
+  background-color: rgb(226, 196, 161);
+  padding: 20px;
+}
+
+.countInput {
+  flex: 1;
+  padding: 10px 20px;
+  margin: 10px 2px;
+  width: 88%;
+  font-size: 24px;
+  border: solid 2px grey;
+  border-radius: 5px;
+}
+
+button {
+  margin: 2px;
+  padding: 10px 20px;
+  color: white;
+  font-size: large;
+  font-weight: 400;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+}
+
+.container :last-child {
+  background-color: gray;
+}
