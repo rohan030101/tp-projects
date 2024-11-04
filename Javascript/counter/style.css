@@ -6,6 +6,8 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   line-height: 2;
 }
 .container {
@@ -13,7 +15,7 @@
   max-width: 30vw;
   flex-direction: column;
   margin: 10px;
-  background-color: rgb(226, 196, 161);
+  background-color:rgba(239,232,213,255);
   padding: 20px;
 }
 

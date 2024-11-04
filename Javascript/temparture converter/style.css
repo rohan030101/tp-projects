@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: teal;
+}
+
+.mainContainer {
+  display: flex;
+  height: 70%;
+  width: 70%;
+  border: solid 2px teal;
+  border-radius: 5px;
+}
+
+.temperatureForm {
+  flex: 1;
+  margin: 10px 20px;
+}
+
+.heading {
+  font-size: large;
+  font-weight: 600;
+  margin: 30px 0px;
+}
+
+.inputgrp {
+  margin: 40px 0 0 0;
+}
+
+.inputgrp label {
+  display: block;
+  margin: 10px 0;
+
+}
+.inputCombine {
+  display: flex;
+}
+.inputCombine input {
+  flex: 10;
+}
+
+.inputCombine select {
+  flex: 1;
+  border-left: none;
+}
+
+.inputDes {
+  padding: 5px 10px;
+  width: 100%;
+border:1px solid lightgray;
+}
+
+.centerBtn {
+  display: flex;
+  height: 40%;
+
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+
+  padding: 8px 25px;
+  border-radius: 20px;
+  color: white;
+  background-color: teal;
+  border: none;
+}
+.btn i {
+  margin-left: 5px;
+}
+
+.temperatureOutput {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+  font-size: x-large;
+  background-color: teal;
+}

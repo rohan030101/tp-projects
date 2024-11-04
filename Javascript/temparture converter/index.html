@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Temprature Converter</title>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <!-- Form -->
+      <div class="temperatureForm">
+        <legend class="heading">Enter Temprature</legend>
+        <div class="inputgrp">
+          <label for="Degree">Degree</label>
+          <div class="inputCombine">
+            <input
+              type="text"
+              class="inputDes"
+              name="Degree"
+              id="temperatureInput"
+              value="0"
+            />
+            <select name="convertIn" class="inputDes" id="tempType">
+              <option value="fahrenheit">°F</option>
+              <option value="celsius">°C</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="inputgrp">
+          <label for="convertIn">Convert In</label>
+          <select name="convertIn" class="inputDes" id="temptoConvertIn">
+            <option value="fahrenheit">Fahrenheit (°F)</option>
+            <option value="celsius">Celsius (°C)</option>
+          </select>
+        </div>
+
+        <div class="centerBtn">
+          <button class="btn" id="convertTemp" onclick="convertTemp()">
+            Convert <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Output  -->
+      <div class="temperatureOutput">
+        <h1 id="tempoutput">0</h1>
+        <sup>°F</sup>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
