@@ -87,3 +87,7 @@ border:1px solid lightgray;
   font-size: x-large;
   background-color: teal;
 }
+
+.temperatureOutput h1 sup{
+  font-size: 18px;
+}
