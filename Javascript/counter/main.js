@@ -20,4 +20,8 @@ function decreaseCount(count1) {
   }
 }
 
-// console.log(count)
+
+function resetCount(count1){
+  count = 0;
+  return currentValue.value = 0;
+}// console.log(count)
