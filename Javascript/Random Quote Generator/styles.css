@@ -5,61 +5,105 @@
   box-sizing: border-box;
   font-family: "Lato  ";
 }
+body {
+  height: 100vh;
+  width: 100%;
+}
 
-/* Head Section Start here */
+.wdth {
+  width: 100%;
+}
+.margntn {
+  margin-bottom: 10px;
+}
+
 .headSection {
   background-color: #0c244a;
-  height: 9vh;
-  width: 100vw;
+  height: 10vh;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 3em;
-}
-.logo {
- min-width: 15%;
+  padding: 0 11.5em;
 }
 
-.alqBtn {
-  padding: 0.6em 1.5em;
-  background: #f3bd00;
-  border: none;
-  border-radius: 4px;
+.headSection img {
+  height: 5vh;
 }
-
-/* Head Section End here */
-/* Main Section Start here */
-section {
-  height: 91vh;
+.mainContainer {
+  height: 90vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2.7em 0;
-}
-.mainSection {
-  text-align: center;
-  width: 70%;
-  background: #fff;
-}
-.container {
-  padding: 15px;
-  border-radius: 12px;
-  box-shadow: 0px 2px 15px rgb(189, 185, 185);  
-}
-
-.quoteBox {
-  background-color: lightgrey;
-  border-radius: 8px;
-  height: 25vh;
-  position: relative;
-  display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
-.authorName {
+
+.container {
+  height: 75vh;
+  width: 70%;
+  padding: 0;
+}
+
+.container h1 {
+  text-align: center;
+  padding-bottom: 18px;
+  font-size: 32px;
+}
+.quoteBoxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  height: 30vh;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.quoteContainer {
+  position: relative;
+  background-color: #f5f5f5;
+  width: 100%;
+  padding: 60px 40px;
+  margin: 8px  18px;
+  border-radius: 12px;
+}
+.author {
   position: absolute;
   right: 0;
   bottom: 0;
-  padding: 0 18px 15px 0;
+  margin-right: 15px;
+  margin-bottom: 10px;
 }
-/* Main Section Ends here */
+
+.btn {
+  padding: 10px 28px;
+  background-color: #f3bd00;
+  border-radius: 5px;
+  border: solid 1px black;
+}
+
+label {
+  display: block;
+  margin-bottom: 2px;
+  margin-left: 2px;
+}
+input {
+  padding: 10px;
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 100%;
+}
+.combineInput {
+  display: flex;
+}
+#authorName {
+  flex: 1;
+  margin-right: 4px;
+}
+.addAuthorBtn {
+  flex: 1;
+  /* margin-right: 4px; */
+}
+

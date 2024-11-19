@@ -22,5 +22,5 @@ function convertTemperature() {
 
   document.getElementById("tempoutput").innerHTML = `${parseFloat(
     result
-  ).toFixed(2)}<sup>°${convertTo}</sup>`;
+  ).toFixed(1)}<sup>°${convertTo}</sup>`;
 }
