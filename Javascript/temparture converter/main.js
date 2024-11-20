@@ -1,23 +1,23 @@
 function convertTemperature() {
-  let currentValue = document.getElementById("temperatureInput").value;
-  let tempType = document.getElementById("tempType");
+  let currentValueInput = document.getElementById("temperatureInput").value;
+  let temperatureType = document.getElementById("tempType");
   let convertTo = document.getElementById("temptoConvertIn").value;
   let result = 0;
 
-  console.log(currentValue);
-  console.log(tempType);
+  console.log(currentValueInput);
+  console.log(temperatureType);
   console.log(convertTo);
 
-  if (tempType.value == "celsius" && convertTo == "F") {
-    result = (currentValue * 9) / 5 + 32;
-  } else if (tempType.value == "fahrenheit" && convertTo == "C") {
-    result = ((currentValue - 32) * 5) / 9;
-  } else if (tempType.value == "fahrenheit" && convertTo && "F") {
-    tempType.value = "celsius";
-    result = (currentValue * 9) / 5 + 32;
+  if (temperatureType.value == "celsius" && convertTo == "F") {
+    result = (currentValueInput * 9) / 5 + 32;
+  } else if (temperatureType.value == "fahrenheit" && convertTo == "C") {
+    result = ((currentValueInput - 32) * 5) / 9;
+  } else if (temperatureType.value == "fahrenheit" && convertTo && "F") {
+    temperatureType.value = "celsius";
+    result = (currentValueInput * 9) / 5 + 32;
   } else {
-    tempType.value = "fahrenheit";
-    result = ((currentValue - 32) * 5) / 9;
+    temperatureType.value = "fahrenheit";
+    result = ((currentValueInput - 32) * 5) / 9;
   }
 
   document.getElementById("tempoutput").innerHTML = `${parseFloat(
