@@ -54,7 +54,7 @@ body {
   align-items: center;
   width: 100%;
   text-align: center;
-  height: 30vh;
+  height: fit-content;
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 12px;
@@ -65,7 +65,7 @@ body {
   background-color: #f5f5f5;
   width: 100%;
   padding: 60px 40px;
-  margin: 8px  18px;
+  margin: 10px  18px;
   border-radius: 12px;
 }
 .author {
@@ -83,6 +83,9 @@ body {
   border: solid 1px black;
   cursor: pointer;
 }
+.btn:hover{
+  background-color: #e7b603;
+}
 
 label {
   display: block;
@@ -98,7 +101,7 @@ input {
 .combineInput {
   display: flex;
 }
-#authorName {
+#newAuthorName {
   flex: 1;
   margin-right: 4px;
 }
